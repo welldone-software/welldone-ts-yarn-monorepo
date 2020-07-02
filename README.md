@@ -3,7 +3,7 @@
 ## Overview
 
 This monorepo conatains multiple apps with multiple dependent libs (with cross dependencies between the libs).
-It is minimalistic for quick and smooth development process, but also includes a production build and production run option.
+It is minimalistic and optimized for quick and smooth development process, but also includes a production build and production run option.
 
 ## Structure and dependecies
 
