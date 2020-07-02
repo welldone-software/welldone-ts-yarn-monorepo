@@ -2,7 +2,7 @@
 
 ## Overview
 
-This monorepo shows how to create a monorepo for multiple apps with multiple dependent libs (with cross dependencies between the libs).
+This monorepo conatains multiple apps with multiple dependent libs (with cross dependencies between the libs).
 It is minimalistic for quick and smooth development process, but also includes a production build and production run option.
 
 ## Structure and dependecies
