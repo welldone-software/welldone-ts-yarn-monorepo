@@ -1,0 +1,17 @@
+{
+  "name": "ts-monorepo",
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ],
+  "private": true,
+  "scripts": {
+    "clean": "rimraf '@(apps|libs)/*/dist' && rimraf '@(apps|libs)/*/*.tsbuildinfo'",
+    "service1": "yarn workspace @myrepo/service1",
+    "service2": "yarn workspace @myrepo/service2"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
