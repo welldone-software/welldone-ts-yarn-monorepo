@@ -9,7 +9,7 @@ It is minimalistic and optimized for quick and smooth development process, but a
 
 ```
 - /
-    - tsconfig.json // base ts config
+    - tsconfig.json      // base ts config
     - package.json       // workspace defs and scripts
     - apps/              // root dir for services (top level apps)
         - service1       // depends on lib1, shows http://localhost:7001/api/v1/f1|f12
