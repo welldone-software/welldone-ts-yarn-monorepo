@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@myrepo/lib1": "*",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "ts-node": "^8.10.2",
     "ts-node-dev": "^1.0.0-pre.50"
   },
